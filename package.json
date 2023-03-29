@@ -1,0 +1,23 @@
+{
+  "name": "bluefin",
+  "version": "0.0.1",
+  "description": "Web Jabber Client",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "npm": ">=0.0.0 <10.0.0",
+    "node": ">=18.0.0 <19.0.0"
+  },
+  "scripts": {
+    "start": "node build.dev.js",
+    "build": "node build.js",
+    "test": "node --test"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.17.14",
+    "preact": "^10.13.2",
+    "typescript": "^5.0.2"
+  }
+}
